@@ -1,0 +1,9 @@
+<h1>Estás en el index</h1>
+<% @sales.each do |sale| %>
+	<p> <%= link_to sale.cod %> </p>
+	<p> <%= link_to sale.detail %> </p>
+	<p> <%= link_to sale.category %> </p>
+	<p> <%= link_to sale.value %> </p>
+	<p> <%= link_to sale.discount %> </p>
+	<p> <%= link_to sale.total %> </p>
+<% end %>
